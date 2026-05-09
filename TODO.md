@@ -1,0 +1,12 @@
+- [x] Create migrations for projects, poetry_shairi, messages
+- [x] Create models: Project, PoetryShairi, Message
+- [x] Create controllers: ProjectController, PoetryShairiController, MessageController
+- [x] Create manual admin auth controllers: AdminLoginController, AdminDashboardController
+- [x] Create AdminAuthenticate middleware
+- [x] Create admin Blade views (login, dashboard, projects CRUD, poetry CRUD, messages inbox)
+- [x] Create frontend Blade view: home
+- [x] Update routes/web.php (frontend + admin auth + admin CRUD routes)
+- [ ] Fix any issues in Kernel/middleware registration for AdminAuthenticate (if needed)
+- [ ] Run migrations manually (cmd issue with '&&' in tool)
+- [ ] Verify by visiting: / and /admin/login
+
